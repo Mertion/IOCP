@@ -1,9 +1,11 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 10.00
-# Visual Studio 2008
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Client - OldThreadPool", "Client\Client.vcproj", "{D89CFDF1-ACBD-414F-81C5-83C3AB5FB403}"
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29111.141
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Client - NewThreadPool", "Client\Client.vcxproj", "{D89CFDF1-ACBD-414F-81C5-83C3AB5FB403}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Server - OldThreadPool", "Server\Server.vcproj", "{9F68071D-1DDB-46E5-AD9A-D6D19C698688}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Server - NewThreadPool", "Server\Server.vcxproj", "{9F68071D-1DDB-46E5-AD9A-D6D19C698688}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -32,5 +34,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E6132DE1-C198-4EA7-B76B-1578EDD4FF05}
 	EndGlobalSection
 EndGlobal
